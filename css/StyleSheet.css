@@ -49,7 +49,6 @@ nav {
 
 
 .navigatie-links{
-  color: rgb(187, 187, 187);
   display: flex;
   text-decoration: none;
   letter-spacing: 3px;
@@ -59,7 +58,7 @@ nav {
   right: 0;
 }
 .navigatie-link{
-  color: red;
+  color: rgb(187, 187, 187);
   width: 120px;
   margin: 15px;
   padding:15px;
