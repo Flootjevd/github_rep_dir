@@ -399,7 +399,7 @@ video{
 .box2f{
   grid-column:1/3;
   grid-row:2;
-  text-decoration: underline, uppercase;
+  text-decoration: underline;
 }
 .box3f{
   grid-column:1/3;
