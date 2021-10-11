@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("#divfade").fadeIn("slow");
+      });
+    });
+  </script>
   <link rel="stylesheet" href="css/StyleSheet.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +25,7 @@
 <body>
 
   <!--Navigatie bar-->
-  <nav class="navigatiebar">
+  <nav class="navigatiebar divfade">
 
     <div class="title-name">
       <h2>Home</h2>
@@ -27,7 +35,7 @@
 
     <ul class="navigatie-links">
       <li>
-        <a href="index.html" class="navigatie-link"> Home </a>
+        <a href="index.html" class="navigatie-link button"> Home </a>
       </li>
       <li>
         <a href="profile.html" class="navigatie-link"> Profile </a>
@@ -77,7 +85,7 @@
     </div>
     <!--end sidebar-->
     <!--grid mid section-->
-    <div class="wrapper-upper-mid-section" >
+    <div class="wrapper-upper-mid-section">
       <div class="box1">Why ICT?</div>
       <div class="box2 img-Layout " img alt='photo of me in the field'>Photo test</div>
       <div class="box6">The reason i chose ICT is because my field of interest is mainly focused around programming.
@@ -110,18 +118,18 @@
       <div class="box4">
         <video autoplay controls>
           <source src="Videos/Vision-Grid.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video> 
+          Your browser does not support the video tag.
+        </video>
         The grid displayed on the screen and the data points beside it.
       </div>
       <div class="box7">
         <video autoplay controls>
           <source src="Videos/End-Result.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video> 
+          Your browser does not support the video tag.
+        </video>
         The end-result.
       </div>
-      
+
     </div>
     <div class="wrapper-lower-mid-section">
       <div class="box1">After ICT?</div>
@@ -130,26 +138,26 @@
         hoping to find a job in this area if possible. Furthermore i am also intrested in pursuing a masters degree in
         this area, but i have yet to decide which one, as there are alot of options and i personnally have to broaden my
         view a bit more.</div>
-  </div>
-  <!--end grid mid section-->
+    </div>
+    <!--end grid mid section-->
 
 
-  <!--bottom bar-->
-  <div class="bottom-bar">
-    <ul>
-      <li><a href="FloBroNoHomo#1557" class="bottom-logos fab fa-discord"></a></li>
-      <li><a href="https://www.twitch.tv/grflows" class="bottom-logos fab fa-twitch"></a></li>
-      <li><a href="https://steamcommunity.com/profiles/76561198280032104/" class="bottom-logos fab fa-steam"></a></li>
-      <li><a href="https://www.instagram.com/floooo0o/" class="bottom-logos fab fa-instagram"></a></li>
-      <li><a href="#" class="bottom-logos fab fa-whatsapp"></a></li>
-    </ul>
+    <!--bottom bar-->
+    <div class="bottom-bar">
+      <ul>
+        <li><a href="FloBroNoHomo#1557" class="bottom-logos fab fa-discord"></a></li>
+        <li><a href="https://www.twitch.tv/grflows" class="bottom-logos fab fa-twitch"></a></li>
+        <li><a href="https://steamcommunity.com/profiles/76561198280032104/" class="bottom-logos fab fa-steam"></a></li>
+        <li><a href="https://www.instagram.com/floooo0o/" class="bottom-logos fab fa-instagram"></a></li>
+        <li><a href="#" class="bottom-logos fab fa-whatsapp"></a></li>
+      </ul>
 
-  </div>
-  <!--end bottom bar-->
+    </div>
+    <!--end bottom bar-->
 
 
 
-  <!--als we hoobit theme doen:
+    <!--als we hoobit theme doen:
   <div class="img-hobbitdoor thick-green-border">
 
   </div>
