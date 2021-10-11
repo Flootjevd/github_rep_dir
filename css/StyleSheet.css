@@ -403,6 +403,7 @@ video{
 .box3f{
   grid-column:1/3;
   grid-row:3/4;
+  list-style-type: circle;
 }
 .box4f{
   grid-column:1/3;
